@@ -19,4 +19,14 @@
     <servlet-name>DownloadServlet</servlet-name>
     <url-pattern>/download</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DownloadServlet2</display-name>
+    <servlet-name>DownloadServlet2</servlet-name>
+    <servlet-class>cn.hank.download.DownloadServlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DownloadServlet2</servlet-name>
+    <url-pattern>/download2</url-pattern>
+  </servlet-mapping>
 </web-app>
